@@ -28,7 +28,7 @@ with open(file_json, "w+", encoding='utf-8') as file:  #Запись в json ф�
     json.dump(writer_list, file, indent = 5, ensure_ascii = False)
 
 with open(file_index, "w+" , encoding='utf-8') as file:  #создание файла index.html
-    file.write("<html><head><title>Quotes</title></head><body>\n")  #Титульник старницы
+    file.write("<html><head><title>Country</title></head><body>\n")  #Титульник старницы
     file.write('<h1><p align="center" > <a href="https://www.scrapethissite.com/pages/simple/">Страны и столицы</h1></a></p>\n') #Текст над таблицей с гиперссылкой на оригинальный источник
     file.write('<body bgcolor="#341b4d">\n') #Цвет фона
     file.write('<table cellspacing="4"  bordercolor="purple"  BGCOLOR= #9163bf border="3" align="center" ') #Атрибуты таблицы цвет границ\заливка таблицы\толщина границ\выравнивание по центру
